@@ -1,0 +1,78 @@
+@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3";
+
+$header-img: image-url('wewillwin_crest.png', false, false);
+$bg-img: image-url('textured_paper.png', false, false);
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Special Elite', serif;
+  background-image: $bg-img;
+  background-size: 50%;
+  line-height: 1.3em;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.column {
+  height: 100%;
+  // width: 50%;
+  &:first-of-type {
+    flex: 1;
+    overflow: auto;
+  }
+  &:last-of-type {
+    position: relative;
+    width: auto;
+    @media only screen and (orientation: portrait) {
+      display: none;
+    }
+
+    img {
+      height: 100%;
+      width: auto;
+      visibility: hidden;
+    }
+  }
+}
+
+header {
+  background-image: $header-img;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30%;
+  margin-top: 1em;
+}
+
+embed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.credits {
+  padding: 2em;
+}
+
+a {
+  color: black;
+  &:hover {
+    color: #606060;
+  }
+}
+
+p {
+  font-size: 110%;
+  margin-bottom: 1em;
+}
