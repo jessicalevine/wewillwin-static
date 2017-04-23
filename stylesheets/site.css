@@ -1,0 +1,129 @@
+/* line 5, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../.rvm/gems/ruby-2.2.2@wewillwin-static/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 8, site.css.scss */
+html, body {
+  height: 100%; }
+
+/* line 12, site.css.scss */
+body {
+  font-family: 'Special Elite', serif;
+  background-image: url("/images/textured_paper.png");
+  background-size: 50%;
+  line-height: 1.3em; }
+
+/* line 19, site.css.scss */
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+/* line 25, site.css.scss */
+.column {
+  height: 100%; }
+  /* line 28, site.css.scss */
+  .column:first-of-type {
+    -ms-flex: 1;
+        flex: 1;
+    overflow: auto; }
+  /* line 32, site.css.scss */
+  .column:last-of-type {
+    position: relative;
+    width: auto; }
+    @media only screen and (orientation: portrait) {
+      /* line 32, site.css.scss */
+      .column:last-of-type {
+        display: none; } }
+    /* line 39, site.css.scss */
+    .column:last-of-type img {
+      height: 100%;
+      width: auto;
+      visibility: hidden; }
+
+/* line 47, site.css.scss */
+header {
+  background-image: url("/images/wewillwin_crest.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30%;
+  margin-top: 1em; }
+
+/* line 56, site.css.scss */
+embed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%; }
+
+/* line 64, site.css.scss */
+.credits {
+  padding: 2em; }
+
+/* line 68, site.css.scss */
+a {
+  color: black; }
+  /* line 70, site.css.scss */
+  a:hover {
+    color: #606060; }
+
+/* line 75, site.css.scss */
+p {
+  font-size: 110%;
+  margin-bottom: 1em; }
